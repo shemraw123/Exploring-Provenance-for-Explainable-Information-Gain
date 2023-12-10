@@ -1,0 +1,1 @@
+SELECT g.subId, g.actgroup, CASE WHEN (g.actcode = a.actcode) THEN a.actcode ELSE g.actcode END AS actcode, a.year, a.month, g.x, g.y, g.z FROM accelphone10k a JOIN gyrophone10k g ON (g.subId = a.subId AND g.actgroup = a.actgroup AND g.year = a.year AND g.month = a.month) WHERE g.subid = 1640 AND g.x > 3

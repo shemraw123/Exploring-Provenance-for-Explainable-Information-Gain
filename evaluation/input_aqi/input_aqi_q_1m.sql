@@ -1,0 +1,1 @@
+SELECT s.county, s.year, s.maqi, s.gdays, o.dayswaqi FROM owned1m o JOIN shared1m s ON (s.county = o.county AND s.year = o.year)

@@ -1,0 +1,1 @@
+SELECT p.subid, w.year, w.month, p.x, w.x, p.y, w.y, p.z, w.z FROM accelphone1k p JOIN accelwatch1k w ON (p.actcode = w.actcode AND p.actgroup = w.actgroup AND p.subId = w.subId) WHERE p.year = 2020 AND w.year = 2020

@@ -1,0 +1,1 @@
+SELECT o.county, o.year, s.gdays, o.maqi, o.dayswaqi FROM owned1m o JOIN shared1m s ON (o.county = s.county AND o.year = s.year) WHERE s.gdays < 100
