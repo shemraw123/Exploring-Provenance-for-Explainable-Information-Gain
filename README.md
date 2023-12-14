@@ -1,7 +1,6 @@
 # Exploring-Provenance-for-Explainable-Information-Gain
-ICDE Submission
 
-Link to repo : https://github.com/shemraw/gprom_IG
+Link to repo for implementation : https://github.com/shemraw/gprom_IG
 
 # Overview
 
