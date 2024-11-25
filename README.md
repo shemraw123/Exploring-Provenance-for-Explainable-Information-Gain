@@ -1,4 +1,4 @@
-# Exploring-Provenance-for-Explainable-Information-Gain
+# Provenance based Data Gain
 
 Link to repo for implementation : https://github.com/shemraw/gprom_IG
 
